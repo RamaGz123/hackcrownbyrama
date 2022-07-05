@@ -78,12 +78,13 @@ ${chalk.bgRed('BY Ramakull')}
 
 ♨  [${moment().format('HH:mm:ss')}]
 
-⚜️  ${chalk.magenta(`Negara By Ramakull : ${country}`)}
-⚜️  ${chalk.yellow(`Nama By Ramakull : ${username}`)}
-⚜️  ${chalk.cyan(`Exp By Ramakull: ${exp}`)}  
-⚜️  ${chalk.blue(`Tropy By Ramakull : ${trophy}`)}  
-⚜️  ${chalk.bgRed(`Crown By Ramakull : ${crown}`)}
-⚜️  ${chalk.bgGreen(`Status : ✔ Success`)}`);
+${chalk.magenta(`⚜️Negara By Ramakull : ${country}`)}
+${chalk.yellow(`⚜️Nama By Ramakull : ${username}`)}
+${chalk.cyan(`⚜️Exp By Ramakull: ${exp}`)}  
+${chalk.blue(`⚜️Tropy By Ramakull : ${trophy}`)}  
+${chalk.bgRed(`⚜️Crown By Ramakull : ${crown}`)}
+
+${chalk.bgGreen(`⚜️Status : ✔ Success`)}`);
         await delay(time);
 
             } else if (result == 'BANNED') {
