@@ -84,7 +84,7 @@ ${chalk.cyan(`⚜️Exp By Ramakull: ${exp}`)}
 ${chalk.blue(`⚜️Tropy By Ramakull : ${trophy}`)}  
 ${chalk.bgRed(`⚜️Crown By Ramakull : ${crown}`)}
 
-${chalk.bgGreen(`⚜️Status : ✔ Success`)}`);
+${chalk.green(`⚜️Status : ✔ Success`)}`);
         await delay(time);
 
             } else if (result == 'BANNED') {
@@ -102,7 +102,7 @@ ${chalk.bgGreen(`⚜️Status : ✔ Success`)}`);
     } else if (feature == '2') {
 
         const auth = rs.question('[+] Enter your auth token : ');
-        const time = rs.question('[+] Enter Delay in milisecond(5000 - 6500) ( Ex : 1000 = 1 sec ) : '); // Input 0 for no delay ( High Risk)
+        const time = rs.question('[+] Enter Delay in milisecond 5000 Aman( Ex : 1000 = 1 sec ) : '); // Input 0 for no delay ( High Risk)
         console.log('');
 
         while (true) {
