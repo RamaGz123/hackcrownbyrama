@@ -76,7 +76,7 @@ Sabar Orang Sabar di Sayang Tuhan!
 
 ${chalk.bgRed('BY Ramakull')}
 
-♨  ${chalk.White('TIME By Ramakull : [${moment().format('HH:mm:ss')}]
+♨  [${moment().format('HH:mm:ss')}]
 
 ⚜️  ${chalk.magenta(`Negara By Ramakull : ${country}`)}
 ⚜️  ${chalk.yellow(`Nama By Ramakull : ${username}`)}
