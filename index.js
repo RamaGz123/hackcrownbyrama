@@ -72,16 +72,18 @@ Features :
                 const crown = data.User.Crowns;
                 
                 console.log(`\r
-Sabar Bro Delay!! 
+Sabar Orang Sabar di Sayang Tuhan! 
+
 ${chalk.bgRed('BY Ramakull')}
 
-♨  [${moment().format('HH:mm:ss')}]  -
-→  ${chalk.magenta(`Negara By Ramakull : ${country}`)}
-→  ${chalk.yellow(`Nama By Ramakull : ${username}`)}
-→  ${chalk.cyan(`Exp By Ramakull: ${exp}`)}  
-→  ${chalk.blue(`Tropy By Ramakull : ${trophy}`)}  
-→  ${chalk.bgRed(`Crown By Ramakull : ${crown}`)}
-→  ${chalk.bgGreen(`Status : ✔ Success`)}`);
+♨  ${chalk.White('TIME By Ramakull : [${moment().format('HH:mm:ss')}]
+
+⚜️  ${chalk.magenta(`Negara By Ramakull : ${country}`)}
+⚜️  ${chalk.yellow(`Nama By Ramakull : ${username}`)}
+⚜️  ${chalk.cyan(`Exp By Ramakull: ${exp}`)}  
+⚜️  ${chalk.blue(`Tropy By Ramakull : ${trophy}`)}  
+⚜️  ${chalk.bgRed(`Crown By Ramakull : ${crown}`)}
+⚜️  ${chalk.bgGreen(`Status : ✔ Success`)}`);
         await delay(time);
 
             } else if (result == 'BANNED') {
